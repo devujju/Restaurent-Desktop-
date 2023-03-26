@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: 0px auto;
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* container */
+
+.container{
+    border: 1px solid red;
+    padding: 1%;
+    margin-top: 5px;
+    /*margin is applied outside the border and padding is appied inside the border*/
+    display: flex;
+}
+
+/* nav-bar section */
+
+.nav-bar{
+    justify-content: space-between;
+}
